@@ -13,7 +13,7 @@ h1 {
 }
 
 h3 {
-    font-size: 200%;
+    font-size: 180%;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: inline;
@@ -23,7 +23,6 @@ h3 {
 header {
     top: 0;
     text-align: center;
-    min-height: fit-content;
     padding: 1em;
 }
 
@@ -31,7 +30,7 @@ header {
 footer {
     bottom: 0;
     text-align: right;
-    padding: 2em;
+    padding: 3vh;
 }
 
 cite {
@@ -44,7 +43,7 @@ header, footer {
     position: fixed;
     background-color: #CDAE32;
     left: 0;
-    height: 100px;
+    height: 10vh;
     width: 100%;
     
 }
@@ -53,10 +52,11 @@ header, footer {
 /* NAV bar */
 nav {
     position: fixed;
-    top: 100px;         /* header height */
+    top: 10vh;         /* header height */
     left: 0;
-    bottom: 100px;      /* footer height */
+    bottom: 10vh;      /* footer height */
     width: 12vw;
+    
 
     background-color: #F5F5DD;
     justify-content: center;
@@ -80,12 +80,12 @@ nav > a, li {
 }
 
 nav > .navBotBox {
-    padding: 1em;
+    padding: 2.5vh;
     align-self: center;
 }
 
 .navBotBox {
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
     align-self: flex-end;
 
     border-radius: 10px;

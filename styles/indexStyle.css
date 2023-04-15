@@ -1,7 +1,7 @@
-#main > article {
+article {
     position: absolute;
-    top: 100px;
-    bottom: 100px;
+    top: 10vh;
+    bottom: 10vh;
     left: 12vw;
     right: 0;
     margin: 0 auto;
@@ -18,8 +18,7 @@
     background-position: left top;
 }
 
-#main > article > h1 {
+article > h1 {
     align-items: center;
     max-width: 55vw;
 }
-
