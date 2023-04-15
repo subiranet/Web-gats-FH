@@ -11,13 +11,11 @@ article {
 
 article > h2 {
     font-size: 250%;
-    color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
     padding-left: 1vw;
 }
 
 .content {
     padding-left: 3vw;
     padding-right: 5vw;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

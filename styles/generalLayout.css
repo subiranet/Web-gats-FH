@@ -1,12 +1,12 @@
 /* GENERAL */
 * {
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1 {
     font-size: 270%;
     color: #FEFEFE;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: inline;
     text-align: center;
     padding: 0;
@@ -14,8 +14,6 @@ h1 {
 
 h3 {
     font-size: 180%;
-    color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: inline;
 }
 
@@ -67,7 +65,7 @@ nav {
 
 nav > a, li {
     font-size: 120%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 .navTop {

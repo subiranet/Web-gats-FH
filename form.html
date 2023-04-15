@@ -3,26 +3,50 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Informació del gat</title>
+  <title>Gatalia: la web de los gatos</title>
+  <link rel="stylesheet" href="styles/form.css">
+  <link rel="stylesheet" href="styles/generalLayout.css">
 </head>
 
 <body>
-    <h1>Introdueix les dades del teu gat</h1>
+    <header>
+      <h1>Gatalia: la web de los gatos</h1>
+    </header>
+  
     <article>
-        <form>
-            <label for="name">Nom del gat:</label><br>
-            <input type="text" , id="name" , name="name"><br>
-            <label for="age">Edat del gat:</label><br>
-            <input type="number" , id="age" , name="age"><br>
-            <label for="race">Raça del gat:</label><br>
-            <input type="text" , id="race" , name="race"><br>
-        </form>
-        <br>
+        <div class="bigBox">
+            <h2>Introdueix les dades del teu gat</h2>
 
-        <a href="results.html"><input type="submit" , value="Submit"></a>
+            <div class="box">
+                <form>
+                    <p>Nombre:</p>
+                    <input type="text" , id="name" , name="name"><br>
+                    <p>Edad:</p>
+                    <input type="text" , id="age" , name="age"><br>
+                </form>
+
+               <a href="results.html" class="button"><p>Guardar</p></a>
+            </div>
+        </div>
     </article>
+
+    <nav>
+        <div class="navTop">
+          <h3>Razas</h3>
+  
+          <ul>
+            <li class="navli"> <a href="siames.html">Siames</a></li>
+            <li class="navli"> <a href="persa.html">Persa</a></li>
+          </ul>
+        </div>
+        <div class="navBotBox">
+          <a href="form.html">Sobre tu<br>gato</a>
+        </div>
+  
+      </nav>
+    </div>
+  
     <footer><cite>Copyright FHiC 2023</cite></footer>
-
-</body>
-
-</html>
+  </body>
+  
+  </html>
