@@ -1,0 +1,103 @@
+/* GENERAL */
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 270%;
+    color: #FEFEFE;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline;
+    text-align: center;
+    padding: 0;
+}
+
+h3 {
+    font-size: 200%;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline;
+}
+
+/* HEADER */
+header {
+    top: 0;
+    text-align: center;
+    min-height: fit-content;
+    padding: 1em;
+}
+
+/* FOOTER */
+footer {
+    bottom: 0;
+    text-align: right;
+    padding: 2em;
+}
+
+cite {
+    color: #FEFEFE;
+    font-size: 150%;
+}
+
+/* HEADER & FOOTER */
+header, footer {
+    position: fixed;
+    background-color: #CDAE32;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    
+}
+
+
+/* NAV bar */
+nav {
+    position: fixed;
+    top: 100px;         /* header height */
+    left: 0;
+    bottom: 100px;      /* footer height */
+    width: 12vw;
+
+    background-color: #F5F5DD;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav > a, li {
+    font-size: 120%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navTop {
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.navli {
+    padding: 0;
+}
+
+nav > .navBotBox {
+    padding: 1em;
+    align-self: center;
+}
+
+.navBotBox {
+    margin-bottom: 5vh;
+    align-self: flex-end;
+
+    border-radius: 10px;
+    background-color: #CDAE32;
+    padding: 0;
+}
+
+.navBotBox > a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 120%;
+}
