@@ -1,0 +1,56 @@
+article {
+    position: absolute;
+    top: 10vh;
+    bottom: 10vh;
+    left: 12vw;
+    right: 0;
+    margin: 0 auto;
+    width: calc(100vw - 12vw);
+    
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+    text-align: center;
+}
+
+article > h2 {
+    font-size: 180%;
+    display: inline-block;
+    padding: 5vh;
+}
+
+article > h3 {
+    font-size: 140%;
+    display: inline-block;
+    padding: 2vh;
+}
+
+table {
+    align-self: center;
+    width: 30vw;
+}
+
+table, td {
+    border: 1px solid rgb(165, 164, 164);
+    border-collapse: collapse;
+}
+
+td {
+    text-align: left;
+}
+
+.par {
+    background-color: #F5F5DD;
+}
+
+.tableTitle {
+    font-weight: bold;
+}
+
+article > a {
+    font-size: 120%;
+    font-weight: bold;
+    padding: 4vh
+}
