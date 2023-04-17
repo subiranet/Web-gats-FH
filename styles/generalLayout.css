@@ -1,101 +1,22 @@
-/* GENERAL */
-* {
-    box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/* .header & FOOTER */
+.header {
+    background-color: #CDAE32;    
 }
 
 h1 {
-    font-size: 270%;
     color: #FEFEFE;
-    display: inline;
-    text-align: center;
-    padding: 0;
 }
 
-h3 {
-    font-size: 180%;
-    display: inline;
-}
-
-/* HEADER */
-header {
-    top: 0;
-    text-align: center;
-    padding: 1em;
-}
-
-/* FOOTER */
-footer {
-    bottom: 0;
-    text-align: right;
-    padding: 3vh;
-}
-
-cite {
-    color: #FEFEFE;
-    font-size: 150%;
-}
-
-/* HEADER & FOOTER */
-header, footer {
-    position: fixed;
-    background-color: #CDAE32;
-    left: 0;
-    height: 10vh;
-    width: 100%;
-    
+.article {
+    background-image: url(../imagenes/Gato.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
 }
 
 
 /* NAV bar */
-nav {
-    position: fixed;
-    top: 10vh;         /* header height */
-    left: 0;
-    bottom: 10vh;      /* footer height */
-    width: 12vw;
-    
-
+.nav {
     background-color: #F5F5DD;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-nav > a, li {
-    font-size: 120%;
-    
-}
-
-.navTop {
-    margin-top: 5vh;
-    text-align: center;
-}
-
-.navli {
-    padding: 0;
-}
-
-nav > .navBotBox {
-    padding: 2.5vh;
-    align-self: center;
-}
-
-.navBotBox {
-    margin-bottom: 3vh;
-    align-self: flex-end;
-
-    border-radius: 10px;
-    background-color: #CDAE32;
-    padding: 0;
-}
-
-.navBotBox > a {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 120%;
+    min-height: 100vh;
 }
