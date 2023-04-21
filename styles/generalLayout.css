@@ -1,10 +1,13 @@
 /* .header & FOOTER */
-.header {
-    background-color: #CDAE32;    
+.edge {
+    background-color: #CDAE32;
+
+
 }
 
 h1 {
     color: #FEFEFE;
+    text-align: center;
 }
 
 .article {
@@ -12,11 +15,16 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left top;
+
 }
 
+.color-overlay {
+    position: absolute;
+
+}
 
 /* NAV bar */
 .nav {
     background-color: #F5F5DD;
-    min-height: 100vh;
+    text-align: center;
 }
